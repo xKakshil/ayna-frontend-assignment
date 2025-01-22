@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChatSession } from "@/models/ChatSession";
 import { addChatSession } from "@/store/chatSessionSlice";
 import { AppDispatch } from "@/store/store";
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 
@@ -11,8 +11,8 @@ interface NoChatProps {
 }
 
 const NoChat: React.FC<NoChatProps> = ({ onNewChat }) => {
-  const infoImgUrl =
-    "https://i.ibb.co/GkFtV3n/vecteezy-a-laptop-with-two-speech-bubbles-and-a-chat-bubble-51683920.png";
+  //const infoImgUrl =
+   // "https://i.ibb.co/GkFtV3n/vecteezy-a-laptop-with-two-speech-bubbles-and-a-chat-bubble-51683920.png";
 
   const [isSaving, setIsSaving] = useState(false);
   const dispatch = useDispatch<AppDispatch>();

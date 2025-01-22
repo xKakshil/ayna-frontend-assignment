@@ -4,7 +4,7 @@ import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 import queryString from "query-string";
 
 const prodUrl = "https://necessary-festival-60442a7f2f.strapiapp.com/";
-const devUrl = "http://localhost:1337";
+//const devUrl = "http://localhost:1337";
 const hostUrl =  prodUrl ;
 
 const baseURL = `${hostUrl}api`;

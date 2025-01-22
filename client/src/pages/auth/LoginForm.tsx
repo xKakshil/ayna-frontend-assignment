@@ -4,9 +4,9 @@ import {
   VStack,
   Text,
   Input,
-  Heading,
+  //Heading,
   useBreakpointValue,
-  Image,
+  //Image,
   Separator,
 } from "@chakra-ui/react";
 
@@ -125,7 +125,7 @@ const LoginForm: React.FC<{ toggleAuthMode: () => void }> = ({
   };
 
   // Conditional image display for large screens
-  const showImage = useBreakpointValue({ base: false, md: true }); // Show on md and larger screens
+  //const showImage = useBreakpointValue({ base: false, md: true }); // Show on md and larger screens
 
   return (
     <Flex align="center" justify="center" mt={10}>
